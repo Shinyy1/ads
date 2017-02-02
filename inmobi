@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<title>Ads</title>
+<div id=screen>
+<script type="text/javascript"> 
+var inmobi_conf = { 
+siteid : "9fdc33d63f3340b2b4d615eeb6f72ae6", 
+slot : "15", 
+manual: true, 
+adtype: "int" };
+</script>
+<script type="text/javascript" src="http://cf.cdn.inmobi.com/ad/inmobi.js"></script>
+<script type="text/javascript"> _inmobi.addEventListener("close", function(event){/* handle close button */});</script><br>
+<script type="text/javascript"> _inmobi.getNewAd(document.getElementById(screen));</script></div>
+</html>
+		
+		
